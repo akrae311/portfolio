@@ -1,0 +1,149 @@
+
+
+body{
+    display: block;
+    margin: 0;
+    line-height: 1.5rem;
+   font-family: 'Roboto'sans-serif;
+}
+
+.resume-wrapper{
+    padding-top:30px;
+    padding-bottom: 60px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.position-relative {
+    position:relative !important;
+}
+
+article {
+    display: block;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.resume-wrapper-inner {
+    max-width: 1000px;
+}
+
+.resume-wrapper {
+    padding-top: 30px;
+}
+@media (min-width: 768px)
+.flex-md-row {
+    flex-direction: row !important;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
+.resume-header .picture{
+    background: #8AB6BE;
+   width:168px;
+}
+
+
+.img-fluid {
+    max-width:100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.resume-header {
+    background: #8AB6BE;
+    color: rgba(255,255,255, 0.9);
+    height: 220px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration:none;
+    background-color: transparent;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.media-body {
+    flex: 1;
+}
+
+@media (min-width: 992px)
+.ml-lg-0, .mx-lg-0 {
+    margin-left: 0 !important;
+}
+
+@media (min-width:992px)
+.mr-lg-0, .mx-lg-0 {
+    margin-right: 0 !important;
+}
+
+.resume-section-title {
+    font-size: 1.5rem;
+    position: relative;
+    color: rgb(34, 168, 98);
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.resume-section-title::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 1.5px;
+    background: rgb(141, 154, 173);
+}
+
+
+.resume-section-content {
+    color: #58677c;
+    font-size: 1rem;
+}
+
+.resume-position-title {
+    font-size: 1.125rem;
+    color: #434E5E;
+}
+
+.resume-skills-cat {
+    font-size: 1rem;
+    color: #434E5E;
+}
+.resume-skill-name {
+    font-size: 0.8125rem;
+    color #434E5E:;
+}
+
+.resume-progress {
+    height: 0.6rem;
+}
+.theme-progress-bar-dark {
+    background-color:#22A162;
+}
+

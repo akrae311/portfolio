@@ -1,0 +1,29 @@
+
+.jumbotron-fluid{
+    
+    color:white;
+    background: #BFBDF2;  
+    -webkit-animation: super-rainbow 15s infinite alternate linear; 
+    -moz-animation: super-rainbow 15s infinite alternate linear; 
+}
+
+
+
+
+
+.card-deck {
+    margin: 40px 15px;
+    
+}
+
+.card {
+    padding: 0;
+}
+
+@-webkit-keyframes super-rainbow {
+    0%   { background:#BFBDF2} 
+    25%  { background:  #2B751F}
+    50% { background: #8AB6BE}
+    75% {background: #9D221D} 
+    100% { background: #624C86 }
+}

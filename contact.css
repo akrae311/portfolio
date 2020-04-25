@@ -1,0 +1,20 @@
+.text-center {
+    height: 930px;
+    background-size: cover;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/s960x960/88972680_10221505712215280_4890329494998482944_o.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=DILsAU_0wcIAX-Ms5p3&_nc_ht=scontent-ort2-1.xx&_nc_tp=7&oh=641c51088df0a548936427e77bfc974d&oe=5E90EAB1);
+}
+
+.btn-primary, btn-secondary{
+    background-color: #2BE648;
+    border-color: #2BE648;
+}
+
+.modal-header {
+    background-color: #2BE648;
+}
+
+p{
+    font-size: 1.5rem;
+}
